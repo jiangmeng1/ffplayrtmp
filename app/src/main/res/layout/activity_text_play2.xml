@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:background="#ffffff"
+    tools:context=".TextPlayActivity2">
+<EditText
+    android:id="@+id/ed_rtmp"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_marginTop="60dp"
+    android:text="rtmp://58.200.131.2:1935/livetv/hunantv"
+    android:textColor="#fe5345"/>
+    <TextView
+        android:id="@+id/tv_rtmp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="获取流"
+        android:textColor="#fe5345"
+        android:layout_below="@+id/ed_rtmp"/>
+</RelativeLayout>
